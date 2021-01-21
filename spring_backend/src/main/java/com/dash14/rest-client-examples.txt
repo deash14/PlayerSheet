@@ -1,0 +1,23 @@
+### put cursor inbetween the ### of the command you wnat then 
+### type ctrl-alt-r to run the command.
+### create example
+
+POST http://127.0.0.1:8080/d_and_d_player/api/v1/players HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Snoopy",
+    "lastName": "Baron"
+}
+
+### get all example
+
+http://127.0.0.1:8080/d_and_d_player/api/v1/players
+
+### delete by id example
+
+DELETE http://127.0.0.1:8080/d_and_d_player/api/v1/players/9
+
+### get by id example
+
+GET http://127.0.0.1:8080/d_and_d_player/api/v1/players/1

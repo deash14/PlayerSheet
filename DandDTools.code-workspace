@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "spring_backend"
+		},
+		{
+			"path": "angular8-client"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic"
+	}
+}

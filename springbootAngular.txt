@@ -1,0 +1,67 @@
+***************************
+******** Basic Info
+***************************
+Using Visual Code as the ide
+Using MySql as the db
+Using Spring boot and Angular for the front end
+Using Java as the back end
+
+Make sure the mysql server is up and running.
+In visual studio code bring up a terminal window and run 'ng serve'
+In a browser go to localhost:4200/players
+
+
+***************************
+******** MySql Info
+***************************
+
+TCP/IP
+  Port: 3306
+  x Protocol Port: 33060
+
+Checked - Open Windows Firewall ports for network access
+
+database name: d_and_d
+
+Root Account username: root
+Root Account Password: Lex 1
+
+User: Daniel
+password: Lex 2
+
+MySQL workbench:
+      1 - Start MySQL Workbench, brings up workbench at the Welcom to MySQL Workbench page. 
+      2 - click on the local instance, brings up a new tab in the workbench.
+      3 - Ctrl-O or File->Open Model to bring up the model tab and the EER Diagram tab.
+      NOTE: The initial tab is the "real" database the model is not.
+      NOTE: The Local Instance has the query window.  If it is not there you can right click on a table and select
+            "Select rows ..." that should bring up a new query window.  Can also select File->New Query Tab.
+      NOTE: 
+      
+
+      to change an column that is a foreign key do this:
+         set FOREIGN_KEY_CHECKS=1;
+         ALTER TABLE mytable DROP INDEX AID;
+         set FOREIGN_KEY_CHECKS=0;
+   
+***************************
+******** Spring boot Info
+***************************
+
+From within visual studio code type cntrl-shift-P
+At the prompt type in (don't include the quotes): ">Spring initializr: Generate a Gradle Project"
+Select the language (Java most likely)
+Enter a group id (something unique ... usually your intended url backwards).
+Enter an artifact id (name of the project) Must start with lowercase letter ... generated directory with this name
+  which pisses me off as I like to have my directory names be capitolized. 
+select the spring boot version
+select dependencies (web, db, etc) ... Spring web, Spring Data JPA, MySQL Driver, Spring Boot DevTools
+hit enter and select where it will create the project.
+
+***************************
+******** Angular Info
+***************************
+
+To start the server up:
+ng serve from within the d:\users\Daniel\Programming\D_and_D_Tools_2\angular8-client directory
+e.g. d:\Users\Daniel\Programming\D_and_D_Tools_2\angular8-client>ng serve

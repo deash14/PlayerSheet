@@ -1,0 +1,6 @@
+spring_backend/bin/
+spring_backend/gradle/
+spring_backend/gradlew
+spring_backend/gradlew.bat
+spring_backend/settings.gradle
+angular8-client/node_modules/
